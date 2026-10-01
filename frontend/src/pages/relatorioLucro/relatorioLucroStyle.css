@@ -1,0 +1,35 @@
+.cm-lucro-ajuda {
+  margin: 0;
+  font: 400 15px/22px var(--font-sans);
+  color: var(--ink-muted);
+}
+.cm-lucro-ajuda strong {
+  color: var(--ink);
+}
+.cm-lucro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin: 0;
+}
+.cm-lucro-item {
+  flex: 1 1 200px;
+  max-width: 280px;
+  padding: var(--space-3) var(--space-4);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-raised);
+}
+.cm-lucro-item--destaque {
+  border-color: var(--accent-strong);
+}
+.cm-lucro-item dt {
+  font: 400 13px/18px var(--font-sans);
+  color: var(--ink-muted);
+}
+.cm-lucro-item dd {
+  margin: 0;
+  font: 600 22px/30px var(--font-mono);
+  color: var(--ink);
+}

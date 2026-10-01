@@ -1,0 +1,39 @@
+.cm-func-ajuda {
+  margin: 0;
+  font: 400 15px/22px var(--font-sans);
+  color: var(--ink-muted);
+}
+.cm-func-cliente {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-raised);
+}
+.cm-func-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--border);
+}
+.cm-func-title {
+  margin: 0;
+  font: 600 17px/24px var(--font-sans);
+  color: var(--ink);
+}
+.cm-func-info {
+  font: 400 14px/20px var(--font-sans);
+  color: var(--ink-muted);
+}
+.cm-func-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+.cm-func-pedido {
+  margin: 0 0 var(--space-2);
+  font: 600 14px/20px var(--font-sans);
+  color: var(--ink-muted);
+}

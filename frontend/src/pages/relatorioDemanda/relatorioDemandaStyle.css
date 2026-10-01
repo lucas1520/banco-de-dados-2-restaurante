@@ -1,0 +1,39 @@
+.cm-demanda-ajuda {
+  margin: 0;
+  font: 400 15px/22px var(--font-sans);
+  color: var(--ink-muted);
+}
+.cm-demanda-dia {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-raised);
+}
+.cm-demanda-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--border);
+}
+.cm-demanda-title {
+  margin: 0;
+  font: 600 17px/24px var(--font-sans);
+  color: var(--ink);
+}
+.cm-demanda-clientes {
+  margin-left: auto;
+  font: 600 15px/22px var(--font-mono);
+  color: var(--ink);
+}
+.cm-demanda-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+.cm-demanda-sub {
+  margin: 0 0 var(--space-2);
+  font: 600 14px/20px var(--font-sans);
+  color: var(--ink-muted);
+}

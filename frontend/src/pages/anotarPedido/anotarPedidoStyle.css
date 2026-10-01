@@ -1,0 +1,36 @@
+.cm-anotar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-raised);
+}
+.cm-anotar-title {
+  margin: 0;
+  font: 600 17px/24px var(--font-sans);
+  color: var(--ink);
+}
+.cm-anotar-selects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+.cm-anotar-selects > * {
+  flex: 1 1 220px;
+  max-width: 320px;
+}
+.cm-anotar-total {
+  margin: 0;
+  font: 400 15px/22px var(--font-sans);
+  color: var(--ink-muted);
+}
+.cm-anotar-total strong {
+  color: var(--ink);
+}
+.cm-anotar-actions {
+  display: flex;
+  gap: var(--space-2);
+}

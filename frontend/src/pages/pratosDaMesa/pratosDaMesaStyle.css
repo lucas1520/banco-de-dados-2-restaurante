@@ -1,0 +1,8 @@
+.cm-mesa-filtro {
+  max-width: 360px;
+}
+.cm-mesa-ajuda {
+  margin: 0;
+  font: 400 15px/22px var(--font-sans);
+  color: var(--ink-muted);
+}

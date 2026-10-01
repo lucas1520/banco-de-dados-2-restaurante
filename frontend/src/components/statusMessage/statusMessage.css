@@ -1,0 +1,16 @@
+.cm-status {
+  font: 400 15px/22px var(--font-sans);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-strong);
+  background: var(--surface-raised);
+  color: var(--ink-muted);
+}
+.cm-status--error {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+.cm-status--success {
+  border-color: var(--action);
+  color: var(--ink);
+}
